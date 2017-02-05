@@ -1,0 +1,58 @@
+html{
+	font-family: helvetica neue w23 for SKY, serif;
+	color:white;
+}
+html, body{
+	margin:0;
+	width:100%;
+	background-image:url(stock-photo-18111683.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center;
+	direction: rtl;
+}
+
+.wrapper{ /* يحتوي كل كود الموقع */
+	width:100%;
+	height:100vh;
+	text-align: center;
+}
+h4{
+	font-weight: 100;
+	font-size: 28px;
+	margin:0;
+	padding: 8em 0 1em 0;
+}
+.btn_one{ /* زر في منتصف الصفحة */
+	text-decoration: none;
+	color:white;
+	font-weight: 100;
+	border:1px #c5778e solid;
+	padding:1em 3em;
+	border-radius:100px;
+}
+.nav div{ /* الثلاتة خطوط */
+    height:4px;
+    background-color:white;
+    margin:5px 0;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+.nav{ /* A تاق يحتوي الثلاتة خطوط */
+    width:30px;
+    display:block;
+    margin:1em 1em 0 0;
+    
+}
+.one{ /* الخط الاول من الأعلى */
+    width:30px;
+}
+.two{ /* الخط التاني في الوسط */
+    width:20px;
+}
+.three{ /* الخط الثالت الاخير في الاسفل */
+    width:25px;
+}
+.nav:hover div{ /* التأتير على الخطوط عند وضع السهم على الـA تاق */
+    width:30px;
+}
